@@ -1,3 +1,31 @@
-.ttvpurp{
-    fill:#A970FF;
+.bg-twitch{
+    background-color:#18181B;
+    color:white;
+    vertical-align:middle;
+}
+
+.nav-twitch{
+    color:white;
+    display:inline;
+}
+
+.twitch{
+font-size: 12px;
+}
+
+#signup{
+    background-color:#9147FF;
+    color:white;
+    border-radius:5px;
+    font-size: 12px;
+}
+#login{
+    background-color:#2A2A2D;
+    color:white;
+    border-radius:5px;
+    font-size: 12px;
+}
+
+#search{
+    background-color:#2A2A2D
 }
