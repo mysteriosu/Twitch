@@ -22,16 +22,20 @@
             </li>
         </ul>
         <form class="d-flex" role="search">
-            <input class="form-control bg-twitch" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-twitch" id="login" type="submit">
-                <svg class="bi bg-twitch" width="24" height="32" fill="white">
+            <input class="form-control bg-twitch form-twitch" type="search" placeholder="Search" aria-label="Search">
+            <button class="position-relative btn btn-twitch" id="srch-btn" type="submit">
+                <svg class="position-absolute bi bg-twitch" id="srch" width="24" height="32" fill="white">
                     <use xlink:href="/assets/bootstrap-icons.svg#search" />
                 </svg></button>
         </form>
         <ul class="navbar-nav ms-auto">
             <li class="nav-item">
                 <a class="nav-link nav-twitch">
-                    <img src="assets/crown.png">
+                    <button class="btn-twitch position-relative p-1 me-1" id="prime">
+                        <img src="assets/crown.png">
+                        <span class="position-absolute top-0 start-50 badge rounded-pill bg-danger mb-4">75</span>
+                    </button>
+                
                 </a>
             </li>
             <li class="nav-item mx-2">

@@ -1,31 +1,65 @@
-.bg-twitch{
-    background-color:#18181B;
-    color:white;
-    vertical-align:middle;
+.bg-twitch {
+    background-color: #18181B;
+    color: white;
 }
 
-.nav-twitch{
-    color:white;
-    display:inline;
+.nav-twitch {
+    color: white;
+    display: inline;
+    box-shadow: 5px;
 }
 
-.twitch{
-font-size: 12px;
-}
-
-#signup{
-    background-color:#9147FF;
-    color:white;
-    border-radius:5px;
-    font-size: 12px;
-}
-#login{
-    background-color:#2A2A2D;
-    color:white;
-    border-radius:5px;
+.twitch {
     font-size: 12px;
 }
 
-#search{
-    background-color:#2A2A2D
+.btn-twitch {
+    border: none;
+    background-color: #18181B;
+    display: inline-block;
+}
+
+.form-twitch {
+    width: 355px;
+    height: 36px;
+    background-color: #3D3D40;
+    border: none;
+}
+
+#signup {
+    background-color: #9147FF;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+#login {
+    background-color: #2A2A2D;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+#srch {
+    background-color: #3D3D40;
+    width: 24px;
+    height: 24px;
+}
+
+#srch-btn {
+    display: inline-flex;
+    background-color: #3D3D40;
+    width: 34px;
+    height: 36px;
+    margin-left: -10px;
+    justify-content: center;
+}
+
+#prime {
+    width: 20px;
+    height: 20px;
+    padding: right 10px;
+}
+
+.corner-badge {
 }
