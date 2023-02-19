@@ -1,6 +1,5 @@
 .bg-twitch {
     background-color: #18181B;
-    color: white;
 }
 
 .nav-twitch {
@@ -23,7 +22,15 @@
     width: 355px;
     height: 36px;
     background-color: #3D3D40;
-    border: none;
+    border: 0px;
+
+}
+
+.form-twitch:focus {
+    background-color: black;
+    outline-style:solid;
+    outline:5px;
+    outline-color:#772CE8;
 }
 
 #signup {
@@ -31,6 +38,11 @@
     color: white;
     border-radius: 5px;
     font-size: 12px;
+    transition: background-color 0s;
+}
+
+#signup:hover {
+    background-color: #772CE8;
 }
 
 #login {
@@ -38,28 +50,32 @@
     color: white;
     border-radius: 5px;
     font-size: 12px;
+    transition: background-color 0s;
+}
+
+#login:hover {
+    background-color: #363639;
 }
 
 #srch {
-    background-color: #3D3D40;
+    background-color: #2A2A2D;
     width: 24px;
     height: 24px;
 }
 
 #srch-btn {
     display: inline-flex;
-    background-color: #3D3D40;
+    background-color: #2A2A2D;
     width: 34px;
     height: 36px;
     margin-left: -10px;
     justify-content: center;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 #prime {
     width: 20px;
     height: 20px;
     padding: right 10px;
-}
-
-.corner-badge {
 }
