@@ -1,6 +1,16 @@
 <app-navbar>secret text that nobody will ever see</app-navbar>
 <body>
-Welcome to twitch! This is a placeholder.
+<p>
+
+</p>
+<div class="container-fluid d-flex flex-wrap justify-content-left vw-100">
+<div *ngFor="let product of products">
+    <app-streamcard pfp={{product.pfp}} streamerName={{product.streamerName}} streamTitle={{product.streamTitle}} preview = {{product.preview}} game={{product.game}}>
+    </app-streamcard>
+</div>
+</div>
+
+
 </body>
 <div class="fixed-bottom">
     <app-sufooter>

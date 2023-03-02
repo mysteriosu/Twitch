@@ -14,16 +14,46 @@
                     Browse
                 </a>
             </li>
-            <li class="nav-item mx-4 my-auto">
-                <a class="nav-link nav-twitch" href="settings">
+            <li class="nav-item dropdown mx-4 my-auto">
+                <a class="nav-link nav-twitch" role="button" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                     <svg class="bi bg-twitch" width="32" height="32" fill="white">
                         <use xlink:href="/assets/bootstrap-icons.svg#three-dots-vertical" />
                     </svg>
                 </a>
+
+                <ul class="dropdown-menu">
+                    <li><span class="dropdown-item-text">GENERAL</span></li>
+                    <li><a class="dropdown-item" href="#">About</a></li>
+                    <li><a class="dropdown-item" href="#">Advertisers</a></li>
+                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                    <li><a class="dropdown-item" href="#">Developers</a></li>
+                    <li><a class="dropdown-item" href="#">Download Apps</a></li>
+                    <li><a class="dropdown-item" href="#">Gift Card</a></li>
+                    <li><a class="dropdown-item" href="#">IGDB</a></li>
+                    <li><a class="dropdown-item" href="#">Jobs</a></li>
+                    <li><a class="dropdown-item" href="#">Loot Cave - Merch Store</a></li>
+                    <li><a class="dropdown-item" href="#">Music on Twitch</a></li>
+                    <li><a class="dropdown-item" href="#">Partners</a></li>
+                    <li><a class="dropdown-item" href="#">Press</a></li>
+                    <li><a class="dropdown-item" href="#">Turbo</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><span class="dropdown-item-text">HELP & LEGAL</span></li>
+                    <li><a class="dropdown-item" href="#">About</a></li>
+                    <li><a class="dropdown-item" href="#">Advertisers</a></li>
+                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                    <li><a class="dropdown-item" href="#">Developers</a></li>
+                    <li><a class="dropdown-item" href="#">Download Apps</a></li>
+                    <li><a class="dropdown-item" href="#">Gift Card</a></li>
+                    <li><a class="dropdown-item" href="#">IGDB</a></li>
+                    <li><a class="dropdown-item" href="#">Jobs</a></li>
+                    <li><a class="dropdown-item" href="#">Loot Cave - Merch Store</a></li>
+                </ul>
             </li>
         </ul>
         <form class="d-flex" role="search">
-            <input class="form-control bg-twitch form-twitch" type="search" placeholder="Search" aria-label="Search">
+            <input class="form-control bg-twitch form-twitch border border-0" type="search" placeholder="Search" aria-label="Search">
             <button class="position-relative btn btn-twitch" id="srch-btn" type="submit">
                 <svg class="position-absolute bi bg-twitch" id="srch" width="24" height="32" fill="white">
                     <use xlink:href="/assets/bootstrap-icons.svg#search" />
@@ -36,16 +66,18 @@
                         <img src="assets/crown.png">
                         <span class="position-absolute top-0 start-50 badge rounded-pill bg-danger mb-4">75</span>
                     </button>
-                
+
                 </a>
             </li>
             <li class="nav-item mx-2">
-                <button type="button btn-twitch" id="login" class="btn bg-twitch my-auto">
+                <button type="button btn-twitch" id="login" class="btn bg-twitch my-auto" data-bs-toggle="modal"
+                    data-bs-target="#loginmodal">
                     Log in
                 </button>
             </li>
             <li class="nav-item">
-                <button type="button btn-twitch" id="signup" class="btn bg-twitch my-auto">
+                <button type="button btn-twitch" id="signup" class="btn bg-twitch my-auto" data-bs-toggle="modal"
+                    data-bs-target="#loginmodal">
                     Sign Up
                 </button>
             </li>
@@ -59,3 +91,30 @@
         </ul>
     </div>
 </nav>
+
+<div class="modal" id="loginmodal" tabindex="-1" aria-labelledby="loginmodallabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content position-relative">
+            <div class="modal-header justify-content-center border-0">
+                <svg class="bi bg-twitch me-1" width="42" height="50" fill="#A970FF">
+                    <use xlink:href="/assets/bootstrap-icons.svg#twitch" />
+                </svg>
+                <h5 style="display: inline;">Welcome to Twitch!</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-2">
+                        <label for="loginUser" class="form-label">Username</label>
+                        <input type="Username" class="form-control" id="loginInput">
+                    </div>
+                    <div class="mb-4">
+                        <label for="loginPass" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="loginInput">
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-twitch" id="loginBtn">Log In / Sign Up!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>

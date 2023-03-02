@@ -1,0 +1,36 @@
+.card {
+    width: 316px;
+    height: 273.55px;
+    background-color: #0E0E10;
+    border:none;
+}
+
+.img-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius:50%;
+}
+
+.pfp{
+    width:40px;
+    border-radius: 50%;
+}
+
+.title{
+    color:#DEDEE3;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    width:240px;
+}
+
+.other{
+    color:#ADADB8;
+    font-size:small;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    width:240px;
+}

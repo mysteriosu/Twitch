@@ -7,6 +7,7 @@ import { NavbarComponent } from './header/navbar/navbar.component';
 import { SufooterComponent } from './sufooter/sufooter.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FpcarouselComponent } from './fpcarousel/fpcarousel.component';
+import { StreamcardComponent } from './streamcard/streamcard.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { FpcarouselComponent } from './fpcarousel/fpcarousel.component';
     SufooterComponent,
     SidebarComponent,
     FpcarouselComponent,
+    StreamcardComponent,
   ],
   imports: [
     BrowserModule,
