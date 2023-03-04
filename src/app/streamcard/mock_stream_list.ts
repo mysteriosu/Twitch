@@ -5,6 +5,9 @@ export const mock_stream_list = [
         streamerName: "SmallAnt",
         game: "Super Mario 64",
         pfp: "assets/smantpfp.png",
+        uptime: "3:21",
+        viewers: "4638",
+
     },
     {
         preview: "assets/TwPh2.jpg",
@@ -12,6 +15,9 @@ export const mock_stream_list = [
         streamerName: "xQc",
         game: "Just Chatting",
         pfp: "assets/xqcpfp.jpeg",
+        uptime: "5:32",
+        viewers: "81.7K",
+
     },
     {
         preview: "assets/TwPh3.jpg",
@@ -19,6 +25,9 @@ export const mock_stream_list = [
         streamerName: "tarik",
         game: "Valorant",
         pfp: "assets/tarikpfp.png",
+        uptime: "1:33",
+        viewers: "52.6K",
+
     },
 
     {
@@ -27,6 +36,8 @@ export const mock_stream_list = [
         streamerName: "HasanAbi",
         game: "Just Chatting",
         pfp: "assets/hasanpfp.jpeg",
+        uptime: "0:24",
+        viewers: "21.8K",
     },
 
     {
@@ -35,6 +46,30 @@ export const mock_stream_list = [
         streamerName: "MoistCr1tikal",
         game: "Destiny 2",
         pfp: "assets/moistpfp.png",
+        uptime: "3:55",
+        viewers: "11.3K",
+    },
+    
+    {
+        
+        preview: "assets/TwPh6.jpg",
+        streamTitle: "ELDEN RING RANDOMIZER !STARFORGE" ,
+        streamerName: "sodapoppin",
+        game: "Elden Ring",
+        pfp: "assets/sodapfp.png",
+        uptime: "2:46",
+        viewers: "11.3K",
+    },
+
+    {
+        
+        preview: "assets/TwPh7.jpg",
+        streamTitle: "BREAKING TWITCH SUB RECORD",
+        streamerName: "KaiCenat",
+        game: "Just Chatting",
+        pfp: "assets/kaipfp.png",
+        uptime: "89:37",
+        viewers: "237.8K"
     }
 
 ]

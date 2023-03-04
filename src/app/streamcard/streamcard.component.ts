@@ -11,11 +11,15 @@ export class StreamcardComponent {
   @Input() streamerName: string;
   @Input() streamTitle: string;
   @Input() game: string;
+  @Input() uptime: string;
+  @Input() viewers: string;
   constructor() {
     this.pfp = "";
     this.streamTitle = "placeholder_title";
     this.game = "placeholder_game";
     this.preview = "";
     this.streamerName = "placeholder_name";
+    this.uptime = "placeholder";
+    this.viewers = "placeholder"
   }
 }

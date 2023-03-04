@@ -8,9 +8,9 @@ describe('StreamcardComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ StreamcardComponent ]
+      declarations: [StreamcardComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(StreamcardComponent);
     component = fixture.componentInstance;

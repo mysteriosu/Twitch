@@ -3,3 +3,8 @@
 body{
     background-color:#0E0E10;
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

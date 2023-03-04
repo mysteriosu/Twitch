@@ -2,7 +2,7 @@
     width: 316px;
     height: 273.55px;
     background-color: #0E0E10;
-    border:none;
+    border: none;
 }
 
 .img-cropper {
@@ -10,27 +10,50 @@
     height: 100px;
     position: relative;
     overflow: hidden;
-    border-radius:50%;
-}
-
-.pfp{
-    width:40px;
     border-radius: 50%;
 }
 
-.title{
-    color:#DEDEE3;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    white-space:nowrap;
-    width:240px;
+.pfp {
+    width: 40px;
+    border-radius: 50%;
 }
 
-.other{
-    color:#ADADB8;
-    font-size:small;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    white-space:nowrap;
-    width:240px;
+.title {
+    color: #DEDEE3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 240px;
+}
+
+.other {
+    color: #ADADB8;
+    font-size: small;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 240px;
+}
+
+.badge{
+    border-radius: 5%;
+    background: rgba(0,0,0,.75);
+    color:white;
+}
+
+#viewers{
+    margin-left:10px;
+    margin-top:-30px;
+}
+
+#uptime{
+    margin-left:-50px;
+    margin-top:10px;
+}
+
+#LIVE{
+    background-color:red;
+    border-radius:10%;
+    margin-left:10px;
+    margin-top:10px;
 }
