@@ -1,0 +1,13 @@
+<app-fpcarousel></app-fpcarousel>
+<div class="container-fluid d-flex flex-wrap justify-content-left vw-100">
+    <div *ngFor="let product of products">
+        <app-streamcard viewers={{product.viewers}} uptime={{product.uptime}} pfp={{product.pfp}} 
+        streamerName={{product.streamerName}} streamTitle={{product.streamTitle}} preview = {{product.preview}} game={{product.game}}
+        >
+        </app-streamcard>
+    </div>
+    </div>
+    <div class="fixed-bottom">
+        <app-sufooter>
+        </app-sufooter>
+    </div>

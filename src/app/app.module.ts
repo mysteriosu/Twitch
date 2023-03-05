@@ -8,6 +8,8 @@ import { SufooterComponent } from './sufooter/sufooter.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FpcarouselComponent } from './fpcarousel/fpcarousel.component';
 import { StreamcardComponent } from './streamcard/streamcard.component';
+import { LayoutChannelComponent } from './layout-channel/layout-channel.component';
+import { LayoutFrontpageComponent } from './layout-frontpage/layout-frontpage.component';
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import { StreamcardComponent } from './streamcard/streamcard.component';
     SidebarComponent,
     FpcarouselComponent,
     StreamcardComponent,
+    LayoutChannelComponent,
+    LayoutFrontpageComponent,
   ],
   imports: [
     BrowserModule,
