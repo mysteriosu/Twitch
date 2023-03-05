@@ -9,12 +9,4 @@ import { StreamCardModel } from './streamcard/streamcard.model';
 })
 export class AppComponent {
   title = 'Twitch';
-  products: StreamCardModel [] = [];
-
-  constructor(){
-    for (var product of mock_stream_list){
-      console.log(product);
-      this.products.push(product);
-    }
   }
-}
