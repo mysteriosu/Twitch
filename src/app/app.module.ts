@@ -3,13 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './header/navbar/navbar.component';
-import { SufooterComponent } from './sufooter/sufooter.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
-import { FpcarouselComponent } from './fpcarousel/fpcarousel.component';
-import { StreamcardComponent } from './streamcard/streamcard.component';
-import { LayoutChannelComponent } from './layout-channel/layout-channel.component';
-import { LayoutFrontpageComponent } from './layout-frontpage/layout-frontpage.component';
+import { NavbarComponent } from './Content Components/navbar/navbar.component';
+import { SufooterComponent } from './Content Components//sufooter/sufooter.component';
+import { SidebarComponent } from './Content Components//sidebar/sidebar.component';
+import { FpcarouselComponent } from './Content Components//fpcarousel/fpcarousel.component';
+import { StreamcardComponent } from './Content Components//streamcard/streamcard.component';
+import { LayoutChannelComponent } from './Layout Components/layout-channel/layout-channel.component';
+import { LayoutFrontpageComponent } from './Layout Components/layout-frontpage/layout-frontpage.component';
+import { CategorycardComponent } from './Content Components/categorycard/categorycard.component';
+import { LayoutBrowseComponent } from './Layout Components/layout-browse/layout-browse.component';
 
 
 @NgModule({
@@ -22,6 +24,8 @@ import { LayoutFrontpageComponent } from './layout-frontpage/layout-frontpage.co
     StreamcardComponent,
     LayoutChannelComponent,
     LayoutFrontpageComponent,
+    CategorycardComponent,
+    LayoutBrowseComponent,
   ],
   imports: [
     BrowserModule,

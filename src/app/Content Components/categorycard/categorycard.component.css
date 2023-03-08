@@ -1,0 +1,11 @@
+.preview{
+    object-fit:fill;
+    width:180px;
+    height:239px;
+    margin-left:-23px;
+}
+
+.card{
+    background-color: #0E0E10;
+    border: none;
+}

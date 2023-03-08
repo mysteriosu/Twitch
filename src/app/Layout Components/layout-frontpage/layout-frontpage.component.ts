@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { StreamCardModel } from '../streamcard/streamcard.model';
-import { mock_stream_list } from '../streamcard/mock_stream_list';
+import { StreamCardModel } from 'src/app/Content Components/streamcard/streamcard.model';
+import { mock_stream_list } from 'src/app/Content Components/streamcard/mock_stream_list';
 
 @Component({
   selector: 'app-layout-frontpage',
