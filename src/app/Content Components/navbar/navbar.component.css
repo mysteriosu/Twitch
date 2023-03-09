@@ -60,6 +60,11 @@
     color: white;
 }
 
+#browse{
+    font-weight:bold;
+    font-size:1.25rem;
+}
+
 #browse:hover {
     color: #B594FF;
     transition-duration: 0;

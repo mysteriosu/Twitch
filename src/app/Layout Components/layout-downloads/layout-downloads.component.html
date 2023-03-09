@@ -1,0 +1,33 @@
+<div class="d-flex">
+    <h1>Downloads</h1>
+</div>
+<div>
+    <p class="other">Find the latest and greatest official Twitch apps right here!</p>
+</div>
+<div class="d-flex RowDesc">
+    Desktop Apps
+</div>
+<div class="d-flex justify-content-start Apps">
+    <div *ngFor="let desktopApps of desktop" class="mb-4">
+        <app-downloadcard img={{desktopApps.img}} appTitle={{desktopApps.appTitle}} desc={{desktopApps.desc}}
+            buttonText={{desktopApps.buttonText}} ref={{desktopApps.ref}}></app-downloadcard>
+    </div>
+</div>
+<div class="d-flex RowDesc">
+    Mobile Apps
+</div>
+<div class="d-flex justify-content-start Apps">
+    <div *ngFor="let mobileApps of mobile" class="mb-4">
+        <app-downloadcard img={{mobileApps.img}} appTitle={{mobileApps.appTitle}} desc={{mobileApps.desc}}
+            buttonText={{mobileApps.buttonText}} ref={{mobileApps.ref}}></app-downloadcard>
+    </div>
+</div>
+<div class="d-flex RowDesc">
+    TV Apps
+</div>
+<div class="d-flex justify-content-start Apps">
+    <div *ngFor="let tvApps of tv" class="mb-4">
+        <app-downloadcard img={{tvApps.img}} appTitle={{tvApps.appTitle}} desc={{tvApps.desc}}
+            buttonText={{tvApps.buttonText}} ref={{tvApps.ref}}></app-downloadcard>
+    </div>
+</div>
