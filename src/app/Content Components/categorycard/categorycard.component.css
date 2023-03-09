@@ -8,4 +8,19 @@
 .card{
     background-color: #0E0E10;
     border: none;
+    overflow:hidden;
+    white-space: nowrap;
+    max-width:180px;
+}
+
+.category{
+    text-overflow:ellipsis;
+    width:140px;
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+.other{
+    color:#9F9FA9;
+    font-size:small;
 }

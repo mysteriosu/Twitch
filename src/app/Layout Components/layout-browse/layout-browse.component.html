@@ -6,9 +6,11 @@
 <app-genrebutton category={{genrebutton.category}} image={{genrebutton.image}}></app-genrebutton>
 </div>
 </div>
-<div class="d-flex ms-4">
-<app-filtertypebutton></app-filtertypebutton>
+<div class="d-flex ms-4 mb-4">
+<app-filtertypebutton filterType="Categories"></app-filtertypebutton> <app-filtertypebutton filterType="Live Channels"></app-filtertypebutton>
 </div>
-<div class="d-flex ms-4">
-<app-categorycard></app-categorycard>
+<div class="container-fluid d-flex flex-wrap justify-content-left vw-100">
+<div *ngFor="let categoryList of categories" class="mb-4">
+    <app-categorycard category={{categoryList.category}} img={{categoryList.img}} viewers={{categoryList.viewers}}></app-categorycard>
+</div>
 </div>

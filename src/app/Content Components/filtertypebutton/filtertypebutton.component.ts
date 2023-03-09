@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-filtertypebutton',
@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./filtertypebutton.component.css']
 })
 export class FiltertypebuttonComponent {
-
+  @Input() filterType: string
+constructor(){
+  this.filterType="placeholder";
+}
 }

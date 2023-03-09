@@ -7,12 +7,14 @@ import { Component, Input } from '@angular/core';
 })
 export class CategorycardComponent {
   @Input() img: string;
-  @Input() Category: string;
+  @Input() category: string;
+  @Input() viewers: string;
 
 
 constructor() {
   this.img = "";
-  this.Category = "None found";
+  this.category = "None found";
+  this.viewers = "0K"
 }
 
 }
