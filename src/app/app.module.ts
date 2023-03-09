@@ -12,6 +12,8 @@ import { LayoutChannelComponent } from './Layout Components/layout-channel/layou
 import { LayoutFrontpageComponent } from './Layout Components/layout-frontpage/layout-frontpage.component';
 import { CategorycardComponent } from './Content Components/categorycard/categorycard.component';
 import { LayoutBrowseComponent } from './Layout Components/layout-browse/layout-browse.component';
+import { GenrebuttonComponent } from './Content Components/genrebutton/genrebutton.component';
+import { FiltertypebuttonComponent } from './Content Components/filtertypebutton/filtertypebutton.component';
 
 
 @NgModule({
@@ -26,6 +28,8 @@ import { LayoutBrowseComponent } from './Layout Components/layout-browse/layout-
     LayoutFrontpageComponent,
     CategorycardComponent,
     LayoutBrowseComponent,
+    GenrebuttonComponent,
+    FiltertypebuttonComponent,
   ],
   imports: [
     BrowserModule,

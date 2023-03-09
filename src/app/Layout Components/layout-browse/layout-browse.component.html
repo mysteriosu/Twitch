@@ -1,1 +1,14 @@
-<p>layout-browse works!</p>
+<div class="d-flex ms-4">
+<h1 class="mb-4"><b>Browse</b></h1>
+</div>
+<div class="container-fluid d-flex flex-wrap justify-content-around vw-100 " id="genrebuttons">
+<div *ngFor="let genrebutton of genres" class="mb-4">
+<app-genrebutton category={{genrebutton.category}} image={{genrebutton.image}}></app-genrebutton>
+</div>
+</div>
+<div class="d-flex ms-4">
+<app-filtertypebutton></app-filtertypebutton>
+</div>
+<div class="d-flex ms-4">
+<app-categorycard></app-categorycard>
+</div>
