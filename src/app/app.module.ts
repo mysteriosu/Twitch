@@ -16,6 +16,8 @@ import { GenrebuttonComponent } from './Content Components/genrebutton/genrebutt
 import { FiltertypebuttonComponent } from './Content Components/filtertypebutton/filtertypebutton.component';
 import { LayoutDownloadsComponent } from './Layout Components/layout-downloads/layout-downloads.component';
 import { DownloadcardComponent } from './Content Components/downloadcard/downloadcard.component';
+import { LayoutCategoryComponent } from './Layout Components/layout-category/layout-category.component';
+import { LayoutSearchComponent } from './Layout Components/layout-search/layout-search.component';
 
 
 @NgModule({
@@ -34,6 +36,8 @@ import { DownloadcardComponent } from './Content Components/downloadcard/downloa
     FiltertypebuttonComponent,
     LayoutDownloadsComponent,
     DownloadcardComponent,
+    LayoutCategoryComponent,
+    LayoutSearchComponent,
   ],
   imports: [
     BrowserModule,

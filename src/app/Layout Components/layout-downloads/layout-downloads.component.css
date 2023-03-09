@@ -8,8 +8,9 @@ h1{
 .other{
     margin-left:1.5%;
     margin-top: .25%;
-    font-size:.8rem;
+    font-size:.85rem;
     color:#9F9FA9;
+    font-weight:600;
 }
 
 .RowDesc{

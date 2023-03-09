@@ -3,6 +3,7 @@
     border-radius:0%;
     background-color:#18181B;
     border-color:black;
+    margin-right:18px;
 }
 
 .card-icon{
@@ -34,6 +35,11 @@
     height:30px;
     font-size:.75rem;
     font-weight:600;
+    transition-duration: 0ms;
+}
+
+.btn-primary:hover, .btn-primary:active{
+    background-color:#35353B;
 }
 
 img{

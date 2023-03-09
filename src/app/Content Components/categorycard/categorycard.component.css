@@ -24,3 +24,8 @@
     color:#9F9FA9;
     font-size:small;
 }
+
+a{
+    all:unset;
+    cursor:pointer;
+}

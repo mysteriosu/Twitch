@@ -8,7 +8,7 @@
     Desktop Apps
 </div>
 <div class="d-flex justify-content-start Apps">
-    <div *ngFor="let desktopApps of desktop" class="mb-4">
+    <div *ngFor="let desktopApps of desktop" class="">
         <app-downloadcard img={{desktopApps.img}} appTitle={{desktopApps.appTitle}} desc={{desktopApps.desc}}
             buttonText={{desktopApps.buttonText}} ref={{desktopApps.ref}}></app-downloadcard>
     </div>
